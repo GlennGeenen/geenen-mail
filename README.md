@@ -1,5 +1,7 @@
 # Geenen Mail Hapi Plugin
 
+[![Build Status](https://travis-ci.org/GlennGeenen/geenen-mail.svg?branch=master)](https://travis-ci.org/GlennGeenen/geenen-mail)
+
 This is a Hapi plugin for sending emails as used by GeenenTijd. It uses Handlebars for templating. Compatible with Glue.
 
 ## Install
