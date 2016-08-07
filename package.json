@@ -1,0 +1,35 @@
+{
+  "name": "geenen-mail",
+  "version": "0.1.0",
+  "description": "Hapi mail plugin",
+  "keywords": [
+    "hapi",
+    "mail",
+    "plugin"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v -L",
+    "coverage": "lab -c -r html -o ./coverage/index.html -L && opn ./coverage/index.html"
+  },
+  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "1.x.x",
+    "handlebars": "4.x.x",
+    "is-html": "1.x.x"
+  },
+  "peerDependencies": {
+    "boom": "*",
+    "joi": "*"
+  },
+  "devDependencies": {
+    "assert": "1.x.x",
+    "eslint": "3.x.x",
+    "eslint-config-hapi": "9.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "lab": "10.x.x",
+    "hapi": "14.x.x",
+    "opn-cli": "3.x.x"
+  }
+}
