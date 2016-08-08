@@ -1,7 +1,11 @@
 {
   "name": "geenen-mail",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Hapi mail plugin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GlennGeenen/geenen-mail.git"
+  },
   "keywords": [
     "hapi",
     "mail",
@@ -15,7 +19,7 @@
   "author": "Glenn Geenen <glenn@geenentijd.be>",
   "license": "MIT",
   "dependencies": {
-    "async": "1.x.x",
+    "async": "2.x.x",
     "handlebars": "4.x.x",
     "is-html": "1.x.x"
   },
