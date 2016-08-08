@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git@github.com:GlennGeenen/geenen-mail.git"
   },
+  "bugs": {
+    "url": "https://github.com/GlennGeenen/geenen-mail/issues"
+  },
   "keywords": [
     "hapi",
     "mail",
@@ -16,16 +19,21 @@
     "test": "lab -v -L",
     "coverage": "lab -c -r html -o ./coverage/index.html -L && opn ./coverage/index.html"
   },
-  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "author": {
+    "name": "Glenn Geenen",
+    "email": "glenn@geenentijd.be",
+    "url": "https://glenngeenen.be"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "license": "MIT",
   "dependencies": {
     "async": "2.x.x",
+    "boom": "3.x.x",
     "handlebars": "4.x.x",
-    "is-html": "1.x.x"
-  },
-  "peerDependencies": {
-    "boom": "*",
-    "joi": "*"
+    "is-html": "1.x.x",
+    "joi": "9.x.x"
   },
   "devDependencies": {
     "assert": "1.x.x",
