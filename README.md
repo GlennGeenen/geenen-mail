@@ -84,6 +84,6 @@ The payload to send to the mail endpoint or mail method.
 
 ## Transports
 
-- geenen-mail-nodemailer
-- geenen-mail-mailgun
-- geenen-mail-ses
+- [geenen-mail-nodemailer](https://github.com/GlennGeenen/geenen-mail-nodemailer)
+- [geenen-mail-mailgun](https://github.com/GlennGeenen/geenen-mail-mailgun)
+- [geenen-mail-ses](https://github.com/GlennGeenen/geenen-mail-ses)
