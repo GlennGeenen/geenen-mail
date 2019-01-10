@@ -10,7 +10,8 @@ const getMailRoute = function (options) {
     config: {
       cors: options.route.cors,
       auth: options.route.auth,
-      tags: ['api', 'mail']
+      tags: ['api', 'mail'],
+      payload: options.route.payload
     },
     handler: function sendMail(request, reply) {
 
