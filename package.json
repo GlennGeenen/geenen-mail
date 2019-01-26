@@ -1,6 +1,6 @@
 {
   "name": "geenen-mail",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Hapi mail plugin",
   "repository": {
     "type": "git",
@@ -30,10 +30,10 @@
   "license": "MIT",
   "dependencies": {
     "async": "2.x.x",
-    "boom": "3.x.x",
+    "boom": "7.x.x",
     "handlebars": "4.x.x",
     "is-html": "1.x.x",
-    "joi": "9.x.x"
+    "joi": "14.x.x"
   },
   "devDependencies": {
     "assert": "1.x.x",
