@@ -1,6 +1,6 @@
 {
   "name": "geenen-mail",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Hapi mail plugin",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "url": "https://glenngeenen.be"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "license": "MIT",
   "dependencies": {
