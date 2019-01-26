@@ -38,10 +38,10 @@
   "devDependencies": {
     "assert": "1.x.x",
     "eslint": "3.x.x",
-    "eslint-config-hapi": "9.x.x",
+    "eslint-config-hapi": "10.x.x",
     "eslint-plugin-hapi": "4.x.x",
-    "lab": "10.x.x",
-    "hapi": "14.x.x",
+    "lab": "14.x.x",
+    "hapi": "16.x.x",
     "opn-cli": "3.x.x"
   }
 }
