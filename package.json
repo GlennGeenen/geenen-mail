@@ -16,7 +16,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "lab -v -L",
+    "test": "lab -v -L -l",
     "coverage": "lab -c -r html -o ./coverage/index.html -L && opn ./coverage/index.html"
   },
   "author": {
