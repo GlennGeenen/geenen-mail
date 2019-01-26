@@ -35,7 +35,7 @@ lab.experiment('Mail API', () => {
         service: MailMock,
         path: `${__dirname}/../templates`,
         route: {},
-        from: from,
+        from,
         templates: [{
           name: 'text',
           subject: 'Test TEXT email',

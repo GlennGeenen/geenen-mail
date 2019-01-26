@@ -59,7 +59,7 @@ lab.experiment('Mail API', () => {
             email: 'glenn@geenentijd.be'
           }],
           template: 'text',
-          subject: subject,
+          subject,
           body: {
             me: 'Glenn Geenen'
           }
