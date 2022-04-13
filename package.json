@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "async": "2.x.x",
+    "async": "3.x.x",
     "boom": "7.x.x",
     "handlebars": "4.x.x",
     "is-html": "1.x.x",
